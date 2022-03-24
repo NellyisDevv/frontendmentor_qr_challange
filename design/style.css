@@ -24,13 +24,15 @@ body {
   background-color: var(--White-);
   padding: 20px;
   border-radius: 20px;
+  max-width: 320px; /* this sets the max with of the card to 320px across all devices */
+  width: 100%; /* This means the width is 100% up until 320px */
 }
 .qr-container-photo {
   flex: 1;
 }
 .qr-container-photo img {
   border-radius: 10px;
-  width: 300px;
+  width: 100%; /* This will set image to fill entire width of container */
   height: auto;
 }
 .qr-container-text {
@@ -42,9 +44,10 @@ body {
   color: var(--Dark-blue);
   padding-top: 15px;
   padding-bottom: 15px;
+  font-size: 20px;
 }
 .qr-container-text p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: var(--Grayish-blue);
   padding-bottom: 15px;
