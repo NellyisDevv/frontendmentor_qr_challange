@@ -24,7 +24,7 @@ body {
   background-color: var(--White-);
   padding: 20px;
   border-radius: 20px;
-  max-width: 320px; /* this sets the max with of the card to 320px across all devices */
+  max-width: 300px; /* this sets the max with of the card to 320px across all devices */
   width: 100%; /* This means the width is 100% up until 320px */
 }
 .qr-container-photo {
